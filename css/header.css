@@ -1,0 +1,356 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-search {
+    border-bottom: 2px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 650px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo h1:hover {
+    color: black;
+}
+
+.search {
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: whitesmoke;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 3px 0px 3px 20px;
+}
+
+.search input::placeholder {
+    opacity: 50%;
+    font-size: 18px;
+    color: black;
+}
+
+.search-btn {
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.fa-search {
+    color: #489FCD;
+}
+
+.fa-search:hover {
+    color: rgb(238, 14, 33);
+}
+
+.logo h1 {
+    font-size: xx-large;
+}
+
+.featured {
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-left: 15%;
+    padding-bottom: 0.75%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+nav ul {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1%;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1em 1em;
+}
+
+.nav-links {
+    margin-right: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgb(240, 20, 56);
+}
+
+.stories-newsletter {
+    display: flex;
+}
+
+.newsletter {
+    height: 550px;
+    background-color: #ebf3f4;
+    width: 30%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+}
+
+.newsletter h2 {
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.newsletter p {
+    line-height: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.newsletter input {
+    outline: none;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40px;
+    width: 220px;
+}
+
+.newsletter h2:hover {
+    color: black;
+}
+
+.newsletter input::placeholder {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+.subscribe {
+    cursor: pointer;
+    background-color: #01adb9;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 40px;
+    width: 220px;
+}
+
+.subscribe:hover {
+    background-color: red
+}
+
+.subscribe h2 {
+    margin-top: 8%;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 7px;
+}
+
+.main-footer {
+    background-color: #fbf5ed;
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.main-footer-1 {
+    /* outline: 2px solid green; */
+    height: 70%;
+    width: 50%;
+    /* outline: 2px solid red; */
+    margin-left: 15%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.main-footer-1 h1 {
+    font-size: 40px;
+}
+
+.main-footer-1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-footer-1 a:hover {
+    color: red;
+}
+
+.main-footer-1 h1:hover {
+    color: black;
+}
+
+.search-btn {
+    color: black;
+    margin-right: 3%;
+}
+
+.wellness-newsletter {
+    margin-top: 7%;
+    /* outline: 2px solid green; */
+}
+
+.wellness-newsletter h2 {
+    font-size: 24px;
+    margin-right: 5%;
+}
+
+.wellness-newsletter p {
+    margin-top: 4%;
+    margin-right: 3%;
+    line-height: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.email-signup {
+    border: 1px solid rgba(0, 128, 0, 0.3);
+    margin-top: 4%;
+    width: 65%;
+    height: 45px;
+    display: flex;
+}
+
+.email {
+    background-color: white;
+    width: 60%;
+}
+
+.email input {
+    outline: none;
+    background: none;
+    border: none;
+    padding-top: 7%;
+    margin-left: 8%;
+}
+
+.email input::placeholder {
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.signup {
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #01adb9;
+    width: 40%;
+}
+
+.signup:hover {
+    background-color: red;
+}
+
+.signup p {
+    font-size: 14px;
+    color: white;
+    padding-top: 4%;
+    padding-left: 25%;
+    opacity: 90%;
+}
+
+.main-footer-2 {
+    height: 70%;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.main-footer-2 a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4%;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.main-footer-2 a:hover {
+    color: red;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-footer {
+    /* outline: 2px solid rgb(172, 172, 172); */
+    height: 150px;
+    display: flex;
+    background-color: black;
+}
+
+.secondary-footer a h1 {
+    font-size: 22px;
+    width: 400px;
+    /* outline: 2px solid green; */
+    margin-left: 55%;
+    margin-top: 12%;
+}
+
+.secondary-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.secondary-footer p {
+    width: 400px;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+
+.secondary-footer h2 {
+    color: white;
+    margin-left: 25%;
+    margin-top: 4.45%;
+}
+
+.brands {
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-1 {
+    margin-left: 35%;
+}
+
+.brands a {
+    padding: 0 20px;
+}
+
+.brands h3 {
+    color: white;
+    margin-right: 30px;
+}
+
+.brands a:hover {
+    color: red;
+}
