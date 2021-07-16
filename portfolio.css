@@ -1,0 +1,590 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    header {
+        background-color: crimson;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-portfolio {
+        margin-left: 10%;
+    }
+    
+    .logo-portfolio a h1 {
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .logo-portfolio a {
+        text-decoration: none;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30%;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 20px;
+    }
+    
+    header nav a:hover {
+        font-size: 25px;
+        color: black;
+    }
+    
+    main {
+        margin-left: 15%;
+        margin-right: 15%
+    }
+    
+    .skills {
+        margin-top: 8%;
+        margin-left: 40%;
+    }
+    
+    .skills h1 {
+        color: black;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .what-i-know {
+        display: flex;
+    }
+    
+    .what-i-know-content {
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .what-i-know-content p {
+        font-size: 20px;
+        font-weight: 600;
+        color: crimson;
+    }
+    
+    .line {
+        margin-top: 3.5%;
+        background-color: black;
+        width: 30px;
+        height: 2px;
+    }
+    
+    .photoanddescription {
+        margin-top: 10%;
+        display: flex;
+        height: 500px;
+    }
+    
+    .photo {
+        width: 35%;
+        margin-right: 10%;
+    }
+    
+    .photo img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .description {
+        width: 50%;
+    }
+    
+    .student {
+        color: crimson;
+    }
+    
+    .description h2 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+    
+    .description p {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    
+    .description button,
+    .form button {
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+        background-color: crimson;
+        margin-top: 8%;
+        margin-left: 23%;
+    }
+    
+    .description button h2,
+    .form button h2 {
+        margin-top: 10px;
+        color: white;
+        padding: 6px 8px;
+    }
+    
+    .skills1 {
+        margin-top: 40%;
+    }
+    
+    .myskills {
+        margin-top: 8%;
+        display: flex;
+    }
+    
+    .myskills-description {
+        width: 50%;
+    }
+    
+    .myskills-description p {
+        margin-top: 3%;
+        letter-spacing: 1px;
+        margin-right: 15%;
+        word-spacing: 2px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .itskills {
+        font-size: 22px;
+    }
+    
+    .chart {
+        width: 50%;
+    }
+    
+    .chart-1,
+    .chart-2,
+    .chart-3,
+    .chart-4,
+    .chart-5 {
+        height: 20%;
+    }
+    
+    .chart-1-description,
+    .chart-2-description,
+    .chart-3-description,
+    .chart-4-description,
+    .chart-5-description {
+        margin-bottom: 3%;
+        display: flex;
+    }
+    
+    .percent1 {
+        margin-left: 70%;
+    }
+    
+    .percent2 {
+        margin-left: 73%;
+    }
+    
+    .percent3 {
+        margin-left: 63%;
+    }
+    
+    .percent4 {
+        margin-left: 69%;
+    }
+    
+    .percent5 {
+        margin-left: 73%;
+    }
+    
+    .chart-1-div {
+        margin-top: -2%;
+        width: 500px;
+        height: 4px;
+        background-color: lightgrey;
+    }
+    
+    .chart-1-percentage {
+        height: 100%;
+        width: 90%;
+        background-color: crimson;
+    }
+    
+    .chart-2-percentage {
+        height: 100%;
+        width: 40%;
+        background-color: crimson;
+    }
+    
+    .chart-3-percentage {
+        height: 100%;
+        width: 30%;
+        background-color: crimson;
+    }
+    
+    .chart-4-percentage {
+        height: 100%;
+        width: 40%;
+        background-color: crimson;
+    }
+    
+    .chart-5-percentage {
+        height: 100%;
+        width: 80%;
+        background-color: crimson;
+    }
+    
+    .contactme {
+        margin-top: 40%;
+    }
+    
+    .addressform {
+        margin-top: 6%;
+        display: flex;
+    }
+    
+    .address {
+        width: 50%;
+    }
+    
+    .address h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    .address h3 {
+        margin-top: 6%;
+        padding-right: 10px;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        /* font-size: 18px; */
+    }
+    
+    .address p {
+        margin-top: 4%;
+        font-size: 20px;
+    }
+    
+    .question {
+        margin-bottom: 2%;
+        margin-top: 6%;
+        font-weight: 1000;
+        font-size: 25px;
+    }
+    
+    .form {
+        padding-left: 30px;
+        /* padding-right: 30px; */
+        /* outline: 2px solid black; */
+        width: 50%;
+    }
+    
+    .form h2 {
+        color: crimson;
+    }
+    
+    .first-1,
+    .first-2,
+    .second,
+    .third,
+    .fourth {
+        border-radius: 18px;
+    }
+    
+    .form input::placeholder {
+        opacity: 60%;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .form h2 {
+        margin-bottom: 5%;
+    }
+    
+    .first {
+        display: flex;
+    }
+    
+    .first-1 {
+        background-color: whitesmoke;
+        height: 50px;
+        width: 50%;
+        margin-right: 10%;
+        margin-bottom: 4%;
+    }
+    
+    .first-1 input {
+        outline: none;
+        border: none;
+        background: none;
+        padding-left: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .first-2 {
+        background-color: whitesmoke;
+        width: 50%;
+        height: 50px;
+        margin-bottom: 4%;
+    }
+    
+    .first-2 input {
+        outline: none;
+        border: none;
+        background: none;
+        padding-left: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .second {
+        background-color: whitesmoke;
+        height: 50px;
+        margin-bottom: 4%;
+    }
+    
+    .second input {
+        outline: none;
+        border: none;
+        background: none;
+        padding-left: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .third {
+        background-color: whitesmoke;
+        height: 50px;
+        margin-bottom: 4%;
+    }
+    
+    .third input {
+        outline: none;
+        border: none;
+        background: none;
+        padding-left: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .fourth {
+        background-color: whitesmoke;
+        height: 50px;
+        margin-bottom: 4%;
+    }
+    
+    .fourth input {
+        outline: none;
+        border: none;
+        background: none;
+        padding-left: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .form button {
+        margin-top: 2%;
+        padding: 1px 20px;
+    }
+    
+    .main-footer {
+        background-color: #fbf5ed;
+        margin-top: 10%;
+        display: flex;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .main-footer-1 {
+        /* outline: 2px solid green; */
+        height: 70%;
+        width: 50%;
+        /* outline: 2px solid red; */
+        margin-left: 15%;
+        margin-top: 4%;
+        margin-bottom: 8%;
+    }
+    
+    .main-footer-1 a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .main-footer-1 h1 {
+        font-size: 40px;
+    }
+    
+    .main-footer-1 a:hover {
+        color: red;
+    }
+    
+    .main-footer-1 h1:hover {
+        color: black;
+    }
+    
+    .search-btn {
+        color: black;
+        margin-right: 3%;
+    }
+    
+    .wellness-newsletter {
+        margin-top: 7%;
+        /* outline: 2px solid green; */
+    }
+    
+    .wellness-newsletter h2 {
+        font-size: 24px;
+        margin-right: 5%;
+    }
+    
+    .wellness-newsletter p {
+        margin-top: 4%;
+        margin-right: 3%;
+        line-height: 25px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .email-signup {
+        border: 1px solid rgba(0, 128, 0, 0.3);
+        margin-top: 4%;
+        width: 65%;
+        height: 45px;
+        display: flex;
+    }
+    
+    .email {
+        background-color: white;
+        width: 60%;
+    }
+    
+    .email input {
+        outline: none;
+        background: none;
+        border: none;
+        padding-top: 7%;
+        margin-left: 8%;
+    }
+    
+    .email input::placeholder {
+        color: black;
+        margin-left: 20px;
+        font-size: 18px;
+        opacity: 50%;
+    }
+    
+    .signup {
+        cursor: pointer;
+        font-weight: 600;
+        background-color: #01adb9;
+        width: 40%;
+    }
+    
+    .signup:hover {
+        background-color: red;
+    }
+    
+    .signup p {
+        font-size: 14px;
+        color: white;
+        padding-top: 4%;
+        padding-left: 25%;
+        opacity: 90%;
+    }
+    
+    .main-footer-2 {
+        height: 70%;
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 6%;
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    
+    .main-footer-2 a {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 4%;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+    .main-footer-2 a:hover {
+        color: red;
+    }
+    
+    .options {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .secondary-footer {
+        /* outline: 2px solid rgb(172, 172, 172); */
+        height: 150px;
+        display: flex;
+        background-color: black;
+    }
+    
+    .secondary-footer a h1 {
+        font-size: 22px;
+        width: 400px;
+        /* outline: 2px solid green; */
+        margin-left: 55%;
+        margin-top: 12%;
+    }
+    
+    .secondary-footer a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .secondary-footer p {
+        width: 400px;
+        margin-left: 55%;
+        margin-top: 5%;
+    }
+    
+    .secondary-footer h2 {
+        color: white;
+        margin-left: 25%;
+        margin-top: 4.45%;
+    }
+    
+    .brands {
+        margin-left: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .brands-1 {
+        margin-left: 35%;
+    }
+    
+    .brands a {
+        padding: 0 20px;
+    }
+    
+    .brands h3 {
+        color: white;
+        margin-right: 30px;
+    }
+    
+    .brands a:hover {
+        color: red;
+    }
