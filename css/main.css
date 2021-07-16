@@ -1,0 +1,296 @@
+main {
+    display: flex;
+}
+
+.firstbox {
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.firstbox nav ul {
+    margin-right: -30%;
+    margin-left: 0;
+    display: flex;
+}
+
+.firstbox nav ul li {
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 0;
+    list-style: none;
+}
+
+.firstbox nav ul li a {
+    text-decoration: none;
+    color: #489FCD;
+    font-size: 20px;
+    font-family: pnrg;
+}
+
+.firstbox nav ul li a:hover {
+    color: red
+}
+
+.line {
+    margin-right: 1%;
+    margin-top: 2.25%;
+    background-color: #bcbfc5;
+    width: 3px;
+    height: 20px;
+}
+
+.para h2 {
+    margin-top: 40px;
+}
+
+.para ul {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.para img {
+    margin-top: 2%;
+    width: 600px;
+}
+
+.para p {
+    margin-top: 2%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.para ul li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.para ul li::before {
+    margin-left: -1em;
+    content: "\2022";
+    color: red;
+    width: 1em;
+    display: inline-block;
+}
+
+.videos {
+    margin: 30px 0px;
+}
+
+.secondbox {
+    margin-top: 17%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 90vh;
+}
+
+.combined {
+    border-bottom: 8px solid black;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding-bottom: 20px;
+}
+
+.photo {
+    width: 25%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.review {
+    width: 75%;
+}
+
+.review p {
+    margin-left: 7%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 3%;
+    /* line-height: 2px; */
+}
+
+.articles {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.secondbox a:hover {
+    color: red;
+}
+
+.secondbox-1 {
+    outline: 2px solid red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.secondbox-1-1 {
+    width: 30%;
+    height: 70%;
+}
+
+.secondbox-1-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox-1-2 {
+    padding-left: 15px;
+    width: 70%;
+    height: 60%;
+}
+
+.secondbox-1-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondbox-2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.secondbox-2-1 {
+    width: 30%;
+    height: 70%;
+}
+
+.secondbox-2-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox-2-2 {
+    width: 70%;
+    height: 60%;
+    padding-left: 15px;
+}
+
+.secondbox-2-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondbox-3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.secondbox-3-1 {
+    width: 30%;
+    height: 70%;
+}
+
+.secondbox-3-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox-3-2 {
+    width: 70%;
+    height: 60%;
+    padding-left: 15px;
+}
+
+.secondbox-3-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondbox-4 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.secondbox-4-1 {
+    width: 30%;
+    height: 70%;
+}
+
+.secondbox-4-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox-4-2 {
+    width: 70%;
+    height: 60%;
+    padding-left: 15px;
+}
+
+.secondbox-4-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondbox-5 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.secondbox-5-1 {
+    width: 30%;
+    height: 70%;
+}
+
+.secondbox-5-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox-5-2 {
+    width: 70%;
+    height: 60%;
+    padding-left: 15px;
+}
+
+.secondbox-5-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondbox-6 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.secondbox-6-1 {
+    width: 30%;
+    height: 70%;
+}
+
+.secondbox-6-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox-6-2 {
+    width: 70%;
+    height: 60%;
+    padding-left: 15px;
+}
+
+.secondbox-6-2 a {
+    text-decoration: none;
+    color: black;
+}
