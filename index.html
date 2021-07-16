@@ -5,11 +5,12 @@
     <link rel="icon" href="img/favicon-32x32.png">
     <script src="https://kit.fontawesome.com/7c3884650d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/sanjeev.css"> -->
 
     <script src="https://kit.fontawesome.com/7c3884650d.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 01</title>
+    <title>Healthline</title>
 
 
 </head>
@@ -34,13 +35,12 @@
         </div>
         <ul>
             <!-- <li class="nav-links"><a href="Cancer.html">Cancer</a></li> -->
-            <li class="nav-links"><a href="Asthama.html">Asthama</a></li>
-            <li class="nav-links"><a href="heartdisease.html">Heart Disease</a></li>
-            <li class="nav-links"><a href="lungdisease.html">Lung Problem</a></li>
-            <li class="nav-links"><a href="Alzheimers.html">Alzheimers</a></li>
-            <li class="nav-links"><a href="diabetes.html">Diabetes</a></li>
-            <li class="nav-links"><a href="About.html">pneumonia</a></li>
-
+            <li class="nav-links"><a href="Cancer.html" target="_blank">Cancer</a></li>
+            <li class="nav-links"><a href="Asthama.html" target="_blank">Asthama</a></li>
+            <li class="nav-links"><a href="heartdisease.html" target="_blank">Heart Disease</a></li>
+            <li class="nav-links"><a href="Alzheimers.html" target="_blank">Alzheimers</a></li>
+            <li class="nav-links"><a href="diabetes.html" target="_blank">Diabetes</a></li>
+            <li class="nav-links"><a href="Portfolio.html" target="_blank">Portfolio</a></li>
         </ul>
     </nav>
     <main>
@@ -324,14 +324,26 @@
                     </a>
                 </div>
             </div>
+
             <div class="newsletter">
+                <h2> COVID-19: How we’re finding hope in the heartache</h2>
+                <p>We’re sharing five stories of how people like you coped with the challenges of the pandemic. Learn how they built resilience and found joy over the past year, and get tips for your own life, too.</p>
+                <input type="text" placeholder="Enter your email" id="clearMe">
+                <div>
+                    <button class="subscribe" onclick="clearOk()">SUBSCRIBE</button>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="newsletter">
                 <h2> COVID-19: How we’re finding hope in the heartache</h2>
                 <p>We’re sharing five stories of how people like you coped with the challenges of the pandemic. Learn how they built resilience and found joy over the past year, and get tips for your own life, too.</p>
                 <input type="text" placeholder="Enter your email">
                 <div class="subscribe">
                     <h2>SUBSCRIBE</h2>
                 </div>
-            </div>
+            </div> -->
 
     </main>
     <footer>
@@ -355,12 +367,23 @@
                 <div class="wellness-newsletter">
                     <h2>Get our wellness newsletter</h2>
                     <p>Filter out the noise and nurture your inbox with health and wellness advice that’s inclusive and rooted in medical expertise.</p>
+
+
+                    <!-- <div class="email-signup">
+                        <div class="email">
+                            <input type="text" placeholder="Enter your email" id="checkMe">
+                        </div>
+                        <div>
+                            <button class="signup" onclick="checks()">SIGNUP</button>
+                        </div>
+                    </div> -->
+
                     <div class="email-signup">
                         <div class="email">
-                            <input type="text" placeholder="Enter your email">
+                            <input type="text" placeholder="Enter your email" id="checkMe">
                         </div>
                         <div class="signup">
-                            <p>SIGNUP</p>
+                            <button onclick="checks()"><p>SIGNUP</p></button>
                         </div>
                     </div>
                 </div>
@@ -383,14 +406,30 @@
             </a>
             <div class="brands">
                 <h3>OUR BRANDS</h3>
-                <a href="#">Brand1</a>
-                <a href="#">Brand2</a>
-                <a href="#">Brand3</a>
-                <a href="#">Brand4</a>
+                <a href="https://medcare-delta.vercel.app/">Medcare</a>
+                <a href="https://onlinehealthcare.vercel.app/">Digital Health</a>
+                <a href="https://e-health-phi.vercel.app/index.html">E-health</a>
+
             </div>
 
         </div>
     </footer>
+    <script>
+        function clearOk() {
+            let clear = document.getElementById("clearMe").value = " ";
+            alert("Thanks for subscribing!")
+        }
+
+        function checks() {
+            let email = document.getElementById("checkMe").value;
+            if (email.endsWith("@gmail.com")) {
+                email.value = " ";
+                alert("Thanks for signing up!");
+            } else {
+                alert("Invalid email address!");
+            }
+        }
+    </script>
 </body>
 
 </html>
